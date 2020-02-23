@@ -1,0 +1,220 @@
+  @font-face { 
+    font-family: LatoBlack; 
+    src: url('assets/fonts/Lato-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face { 
+    font-family: LatoBold; 
+    src: url('assets/fonts/Lato-Bold.ttf');
+    font-weight: normal; 
+    font-style: normal;
+}
+  @font-face { 
+    font-family: LatoLight; 
+    src: url('assets/fonts/Lato-Light.ttf');
+    font-weight: normal; 
+    font-style: normal;
+}
+  @font-face { 
+    font-family: LatoRegular; 
+    src: url('assets/fonts/Lato-Regular.ttf');
+    font-weight: normal; 
+    font-style: normal;
+}
+  @font-face { 
+    font-family: LatoThin; 
+    src: url('assets/fonts/Lato-Thin.ttf');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+.container{
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 42px;
+}
+
+header{
+    background-color: #2d303a;
+    color: #fff;
+    box-shadow: 0px 6px 0px #323746;
+	font-family: LatoBold;
+	position: relative;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 26px;
+    letter-spacing: -1.1px;
+}
+
+h1::after {
+    content: "*";
+    color: #f06c64;
+	font-family: LatoBold;
+}
+
+header .container{
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header {
+    margin-right: -6px;
+    margin-top: 10px;
+}
+
+.header ul {
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+
+.header ul li {
+    margin-left: 10px;
+    margin-right: 2px;
+    list-style-position: inside;
+    color: #494e62;
+}
+
+.header ul li span {
+    transition: color, 0.5s;
+    color: #fff;
+}
+
+.header ul li span:hover {
+    cursor: pointer;
+    color: #f1837d;
+}
+
+.header ul li:first-child span {
+    color: #f06c64;
+}
+
+.header ul li:first-child {
+    list-style: none;
+}
+
+.slider {
+    background-color: #f06c64;
+    height: 600px;
+    box-shadow: 0px 6px 0px #ea676b;
+    position: relative;
+    z-index: 8;
+}
+
+.slider .container {
+    position: relative;
+}
+
+.slider .arrow {
+    position: absolute;
+    top: 287px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.arrow.arrow-first {
+    left: 40px;
+}
+
+.arrow.arrow-sec {
+    right: 40px;
+}
+
+.slider img {
+    position: absolute;
+}
+
+.slider .vertical {
+    left: 112px;
+    top: 58px;
+}
+
+.slider .horizontal {
+    right: 112px;
+    top: 179px;
+}
+
+.services {
+    background-color: #f2f2f2;
+	font-family: LatoBlack;
+    padding-bottom: 29px;
+    margin-bottom: 6px;
+}
+
+.services .container {
+    width: 1020px;
+    padding-top: 65px;
+}
+
+.services h2 {
+    font-size: 30px;
+    color: #666d89;
+}
+
+.service-paragraf {
+    margin-top: 18px;
+    margin-bottom: 46px;
+    font-size: 18px;
+    font-family: LatoThin;
+    color: #767e9e;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    word-spacing: 0.6px;
+}
+
+.service-paragraf span {
+    word-spacing: -0.15px;
+    font-family: LatoThin;
+}
+
+.mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+}
+
+.services-element {
+    display: flex;
+    align-items: flex-start;
+    max-width: 32%;
+    color: #666d89;
+    margin-bottom: 30px;
+}
+
+.services-element img {
+    margin: 1px;
+}
+
+.service-text {
+    margin-left: 19px;
+    margin-top: -3px;
+    overflow: hidden;
+}
+
+.service-text h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin-bottom: 8px;
+}
+
+.service-text p {
+    color: #767e9e;
+    font-family: LatoRegular;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    max-height: 136px;
+    overflow: hidden;
+}
+
+
+
+
